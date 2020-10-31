@@ -1,0 +1,6 @@
+* encryption
+* code cleanup
+* correction check
+* hash check
+
+bug: encoding is impossible when more then 255 pieces

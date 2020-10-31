@@ -1,0 +1,17 @@
+unsigned FileSize = 0u;
+unsigned PieceSize = 0u;
+unsigned PieceNumber = 100u;
+unsigned ErrorNumber = 4u;
+int Parity;
+int Degree;
+int CountedNumberErasures;
+int CountedNumberErrors;
+int *GaloisOpTable;
+int *GaloisMulTable;
+int *ParityBytesEncode;
+int *PolyGenerator;
+int *ErrorLocatorPoly;
+int *ErrorEvaluatorPoly;
+int *ErrorLocator;
+int *ErasureLocator;
+int *SyndromeBytes;
